@@ -1,0 +1,13 @@
+{
+  "name": "argo-eval",
+  "version": "0.1.0",
+  "description": "Trace viewer and human review queue for Claude agents",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
